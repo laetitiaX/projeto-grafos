@@ -9,7 +9,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 grafo = nx.DiGraph()
 
 # NÃO ESQUECER DE MUDAR O DIRETÓRIO 
-with open(r"C:\Users\Letícia Oliveira\Downloads\projetoGrafos\projetoGrafos\copia", 'r', encoding='utf-8') as arquivo:
+with open(r"caminho do arquivo", 'r', encoding='utf-8') as arquivo:
     
     for atividade in arquivo:
         tweet, retweet, peso  = atividade.strip().split()
