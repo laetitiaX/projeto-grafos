@@ -337,7 +337,7 @@ def main():
     
     # Definir caminho do arquivo
     # Altere este caminho para o local correto do seu arquivo de dados
-    caminho_arquivo = r"C:\Users\gonca\OneDrive\Documentos\GitHub\projeto-grafos\arquivomaior\amostra_rapida"
+    caminho_arquivo = r"C:\Users\gonca\OneDrive\Documentos\GitHub\projeto-grafos\arquivooriginal(pesado)\higgs-retweet_network.edgelist"
     
     # Verificar se o arquivo existe
     if not os.path.exists(caminho_arquivo):
